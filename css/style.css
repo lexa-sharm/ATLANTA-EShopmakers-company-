@@ -397,6 +397,28 @@ body {
 	background-position: -2px -170px;
 }
 
+.search-form .search_result {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 100%;
+	z-index: 99999999;
+	border-radius: 3px;
+	background-color: #fff;
+	margin-top: -3px;
+	overflow: auto;
+	max-height: 200px;
+}
+.search-form .search_result li {
+	box-sizing: border-box;
+	padding: 5px;
+	cursor: pointer;
+}
+.search-form .search_result li:hover {
+	background-color: #E3E3E3;
+}
+
+
 .main-basket {
 	position: relative;
 	margin-top: 28px;
